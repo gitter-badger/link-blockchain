@@ -1,0 +1,44 @@
+{
+  "name": "Link",
+  "engine": {
+    "Ethash": {
+      "params": {
+        "gasLimitBoundDivisor": "0x0400",
+        "minimumDifficulty": "0x020000",
+        "difficultyBoundDivisor": "0x0800",
+        "durationLimit": "0x0d",
+        "blockReward": "0x4563918244f40000",
+        "frontierCompatibilityModeLimit": "0x0"
+      }
+    }
+  },
+  "params": {
+    "accountStartNonce": "0x00",
+    "maximumExtraDataSize": "0x20",
+    "minGasLimit": "0x1388",
+    "networkID" : "0xd46437"
+  },
+  "genesis": {
+    "seal": {
+      "ethereum": {
+        "nonce": "0x1391eaa92b871f91",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "difficulty": "0x100000",
+    "author": "0x0000000000000000000000000000000000000000",
+    "timestamp": "0x00",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "gasLimit": "0x1388"
+  },
+  "nodes": [
+    "enode://e6cb937cdfd2458a1941ffcfa0eaf8b18d911a3b8fbfd580afd6bc814e116b1fa0075046b1394e6b4212e5211b3c5859c91e3f7d3ce8da84e2a48c410eb8bbb8@139.162.15.124:30313"
+  ],
+  "accounts": {
+    "0000000000000000000000000000000000000001": { "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+    "0000000000000000000000000000000000000002": { "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+    "0000000000000000000000000000000000000003": { "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+    "0000000000000000000000000000000000000004": { "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+    "9a2b39c4512177403650227863b8768e378bc7b1": { "balance": "56000000000000000000000000" }
+  }
+}
