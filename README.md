@@ -2,7 +2,7 @@
 
 The purpose of the Link blockchain is to permanently store semantic linked data.
 
-Funding preallocation: 56,000,000 Link (approx 5 years' mining)
+Funding preallocation: 56,000,000 Link (equivalent to approximately 5 years worth of mining)
 
 ## Ethereum configuration
 
