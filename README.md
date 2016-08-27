@@ -1,4 +1,4 @@
-# Link blockchain
+# Link
 
 The purpose of the Link blockchain is to permanently store semantic linked data.
 
