@@ -6,8 +6,6 @@ Funding preallocation: 56,000,000 Link (equivalent to approximately 5 years wort
 
 Currency code: LINK
 
-Currency symbol: Ł
-
 ## Ethereum configuration
 
 Network ID: 13919287
