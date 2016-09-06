@@ -8,6 +8,8 @@ Currency code: LINK
 
 Currency symbol: `🔗`
 
+BIP44 coin type: 76 / 0x8000004c
+
 ## Ethereum configuration
 
 Network ID: 13919287
