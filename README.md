@@ -18,6 +18,8 @@ Port: 30313
 
 RPC Port: 8645
 
+WS Port: 8646
+
 ## Parity instructions
 
     parity --chain link.json --db-path ~/.link-parity --port 30313 --jsonrpc-port 8645
@@ -26,6 +28,6 @@ RPC Port: 8645
 
     geth --datadir ~/.link-geth init genesis.json
     cp static-nodes.json ~/.link-geth
-    geth --datadir ~/.link-geth --networkid 13919287 --port 30313 --rpcport 8645 --fast
+    geth --datadir ~/.link-geth --networkid 13919287 --port 30313 --rpcport 8645 --wsport 8646 --fast
     # In a separate terminal launch the console.
     geth attach ~/.link-geth/geth.ipc
